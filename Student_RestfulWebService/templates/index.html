@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <style type="text/css">
+         body {
+         background-image: url("http://images.all-free-download.com/images/graphiclarge/rippled_wall_background_01_hd_pictures_169887.jpg");
+         background-size: cover;
+         font-size: 18px;
+		 }
+         .table td, .table th {
+         border-top: 1px solid black;
+         }
+         h1 {
+         text-align: center;
+         background-color: navy;
+         height: 40%;
+         }
+          a:link {
+         color: green;
+         }
+         a:visited {
+         color: green;
+         }
+         a:hover {
+         color: red;
+         font-size: 22px;
+         }
+         a:active {
+         color: yellow;
+         }
+         
+      </style>
+   </head>
+   <body>
+      <header>
+         <h1>Students Details</h1>
+      </header>
+      <table class="table">
+         <thead>
+            <tr>
+               <th scope="col">ID</th>
+               <th scope="col">FirstName</th>
+               <th scope="col">LastName</th>
+               <th scope="col">Branch</th>
+               <th scope="col">EMAIL ID</th>
+               <th scope="col">City</th>
+            </tr>
+         </thead>
+         <tbody>
+            {% for data in list_data %}
+            <tr>
+               <td scope="row"> <a href="/students/{{ data.studentid }}"> {{ data.studentid }} </a> </td>
+               <td scope="row"> {{ data.firstname }} </td>
+               <td scope="row"> {{ data.lastname }} </td>
+               <td scope="row"> {{ data.branch }} </td>
+               <td scope="row"> {{ data.emailid }} </td>
+               <td scope="row"> {{ data.city }} </td>
+            </tr>
+            {% endfor %}
+         </tbody>
+      </table>
+   </body>
+</html>

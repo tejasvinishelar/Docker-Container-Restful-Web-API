@@ -1,0 +1,42 @@
+{
+    "students": [{
+            "studentid": "111",
+            "firstname": "Tejasvini",
+            "lastname": "Shelar",
+            "branch": "Computer Science",
+            "emailid": "ts51786p@pace.edu",
+            "city": "Danbury"
+        },
+        {
+            "studentid": "222",
+            "firstname": "Aditya",
+            "lastname": "Shelar",
+            "branch": "Information Technology",
+            "emailid": "as12345@pace.edu",
+            "city": "Texas"
+        },
+        {
+            "studentid": "333",
+            "firstname": "Devyani",
+            "lastname": "Vyavahare",
+            "branch": "Computer Science",
+            "emailid": "dv56412p@pace.edu",
+            "city": "New York"
+        },
+        {
+            "studentid": "444",
+            "firstname": "Suchita",
+            "lastname": "Bhalerao",
+            "branch": "Electronics And Telecommunication",
+            "emailid": "ts45623p@pace.edu",
+            "city": "Orange County"   },
+        {
+            "studentid": "555",
+            "firstname": "Anjali",
+            "lastname": "Chuttar",
+            "branch": "Mechanical",
+            "emailid": "as86253p@pace.edu",
+            "city": "Boston"
+        }
+    ]
+}
