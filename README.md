@@ -22,7 +22,7 @@ Steps to run RESTful web service:
 * Check running docker container by "docker ps"
 
 * App will now be running at the following address: -
-  http://192.168.99.100:5000/students
+  http://0.0.0.0:5000/students
   
 * For specific Id use the following url
-  http://192.168.99.100:5000/students/111 --- 111 is the id you wish to search
+  http://0.0.0.0:5000/students/111 --- 111 is the id you wish to search
